@@ -2,6 +2,7 @@ import express from "express";
 import morgan from "morgan";
 import helmet from "helmet";
 import cors from "cors";
+import path from "path";
 import "dotenv/config" 
 import {createLogs} from "./helpers/logs.js"
 import {connectDB} from "./config/db.js"
